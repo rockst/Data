@@ -7,3 +7,4 @@
 * 基礎
 	* [n x m 資料集](nxm.md)
 	* [Install R](install_R.md)
+	* [R 基礎命令](R_base.md)
