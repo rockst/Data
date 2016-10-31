@@ -1,6 +1,6 @@
 # 資料分類 #
 
-* numeric 數值
+> numeric 數值
 
 	x = c(1, 2, 3, 4)
 	class(x) #顯示 x 的資料型態為 numeric
@@ -8,7 +8,7 @@
 	as.numeric() # 轉為 numeric
 	is.numeric()
   
-* integer 整數
+> integer 整數
 
 	x1 = as.integer(x) # 將 x 由 numeric 轉換為 integer 型態
 	class(x1) # integer
@@ -16,7 +16,7 @@
 	as.integer() 轉為 integer
 	is.integer()
 
-* logical 邏輯 TRUE or FALSE
+> logical 邏輯 TRUE or FALSE
 
 	x = c(1, 2, 3, 4)
 	x == 2 # 顯示 FALSE TRUE FALSE TRUE
@@ -26,7 +26,7 @@
 	is.logical(x) # FALSE
 	as.logical(x) # 轉為 logical
 
-* character / String
+> character / String
 
 	x = c("I", "Love", "R")
 	class(X) # character
@@ -37,7 +37,7 @@
 	is.character(x) # 是否為字元型態
 	as.character()
 
-* factor
+> factor
 
 	sex = factor(c(1, 1, 0, 0, 1), levels = (0, 1), labels = c("male", "female"))
 	sex # 顯示 female female male male female
