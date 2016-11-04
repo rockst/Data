@@ -1,0 +1,148 @@
+x <= rnorm(10)
+x <- rnorm(10)
+plet(x)
+plat(x)
+plot(x)
+library(MASS)
+data(Insurance)
+dim(Insurance)
+dim(Insurance[1:10,])
+dim(Insurance[,2:4])
+dim(Insurance)[1]
+dim(Insurance)[2]
+vars = c("District","Age")
+Insurance[20:25, vars]
+names(Insurance)
+head(names(Insurance), n=2)
+tail(names(Insurance), n=2)
+head(Insurance$Age)
+class(Insurance$District)
+class(Insurance$Age)
+class(Insurance$Holders)
+levels(Insurance$Age)
+levels(Insurance$Age)[1]
+levels(Insurance$Age)[1] = "young"
+head(Insurance$Age)
+levels(Insurance$Age)[1] = "<25"
+head(Insurance$Age)
+is.character(Insurance$Age)
+class(Insurance$Claims)
+class(as.numeric(Insurance$Claims))
+class(Insurance$Claims)
+x=C(1,2,3,4)
+x = c(1, 2, 3, 4)
+x
+class(x)
+x1 = as.integer(x)
+x1
+class(x1)
+x = c(1, 2, 3, 4)
+x == 2
+!(X < 2)
+!(x < 2)
+which(x<2)
+is.loaded(x)
+is.logical(x)
+y = c("I", "Love", "R")
+y
+class(y)
+length(y)
+nchar(y)
+y == "R"
+sex = factor(c(1,1,0,0,1), levels=c(0,1), labels=c("mail","femail"))
+sex
+class(sex)
+num = factor(c("a", "b", "c", "d"))
+num
+as.numeric(num)
+num1 = factor(c("a", "a", "c", "d"))
+as.numeric(num1)
+num1 + 1
+as.numeric(num1) + 1
+sub1 = sample(nrow(Insurance, 10, replace = T)
+;
+sub1 = sample(nrow(Insurance), 10, replace = T)
+sub1
+Insurance[sub1, ]
+sub1 = sample(nrow(Insurance), 10, replace = F)
+sub1
+Insurance[sub1, ]
+sub2 = sample(nrow(Insurance), 10, replace = T, prob = c(rep(0, nrow(Insurance) - 1), 1))
+sub2
+Insurance[sub2,]
+nrow(Insurance)
+rep(0, 63)
+sub3 = sample(nrow(Insurance), nrow(Insurance) + 1)
+sub3 = sample(nrow(Insurance), nrow(Insurance), replace = F)
+sub3
+data(package = "datasets")
+?AirPassengers
+help(AirPassengers)
+install.packages(arules)
+install.packages(AirPassengers)
+library(AirPassengers)
+install.packages(AirPassengers)
+exit
+q
+q()
+install.packages(AirPassengers)
+q()
+setwd("/Users/rockst/Documents/workspace/Data/R/DATA")
+write.csv(Insurance, "Insurance.csv")
+Insur_csv = read.csv("Insurance.csv")
+head(Insur_csv)
+Insur_csv1 = read.table("Insurance.csv")
+head(Insur_csv1)
+Insur_csv2 = read.table("Insurance.csv", header = TRUE, sep = ",")
+head(Insur_csv2)
+write.table(Insurance, "Insurance.txt")
+Insur_txt = read.table("Insurance.txt")
+head(Insur_txt)
+Insur_txt2 = read.table("Insurance.txt", header = TRUE, sep = "")
+head(Insur_txt2)
+library(RODBC)
+help.search(RODBC)
+data (package = "datasets")
+library(AirPassengers)
+library(datasets)
+head(AirPassengers)
+channel = odbcConnectExcel(file.choose())
+install.packages("RODBC",type="source")
+library(RODBC)
+channel = odbcConnectExcel(file.choose())
+help.search(odbcConnectExcel)
+help.search("odbcConnectExcel")
+?RODBC
+xlsfile = file.path(path.package('gdata'), 'xls', 'iris.xls')
+install.packages('gdata', type="source")
+?gdata
+xlsfile = file.path(path.package('gdata'), 'xls', 'iris.xls')
+library(gdata)
+xlsfile = file.path(path.package('gdata'), 'xls', 'iris.xls')
+xlsfile
+xlsfile = file.path(path.package('gdata'), 'xls', '/Users/rockst/Documents/workspace/Data/R/DATA/group.xlsx')
+xlsfile
+xlsfile = file.path('/Users/rockst/Documents/workspace/Data/R/DATA', 'xls', 'iris.xls')
+xlsfile
+xlsfile = file.path('/Users/rockst/Documents/workspace/Data/R/DATA', '', 'iris.xls')
+xlsfile
+xlsfile = file.path('/Users/rockst/Documents/workspace/Data/R/DATA', false, 'iris.xls')
+xlsfile = file.path('/Users/rockst/Documents/workspace/Data/R/DATA', '', 'iris.xls')
+xlsfile
+xlsfile = file.path('/Users/rockst/Documents/workspace/Data/R/DATA', '', 'group.xlsx')
+xlsfile
+xlsfile = file.path('/Users/rockst/Documents/workspace/Data/R/', 'DATA', 'group.xlsx')
+xlsfile
+xlsfile = file.path('/Users/rockst/Documents/workspace/Data/R/DATA', '', 'group.xlsx')
+xlsfile
+group_xlsx = read.xls(xlsfile)
+group_xlsx
+library(RODBC)
+cn <- odbcConnect("test")
+cn <- odbcConnect("TESTDB")
+cn <- odbcConnect("MySQL ODBC 5.3 Unicode Driver")
+cn <- odbcConnect("test")
+cn <- odbcConnect("DRIVER=MySQL ODBC 5.3 Unicode Driver;SERVER=localhost;DATABASE=wshall;UID=root;PWD=letmein")
+cn <- odbcConnect("test")
+cn <- odbcConnect("test")
+cn <- odbcConnect("test")

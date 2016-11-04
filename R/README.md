@@ -8,3 +8,6 @@
 	* [n x m 資料集](nxm.md)
 	* [Install R](install_R.md)
 	* [R 基礎命令](R_base.md)
+* 取得資料
+	* [從軟體取得資料](data_in_package.md)
+	* [從檔案取得資料](data_in_file.md)
